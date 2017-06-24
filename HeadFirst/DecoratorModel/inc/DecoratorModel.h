@@ -2,6 +2,7 @@
 #define __DECORATOR_MODEL_H__
 #include<string>
 #include <iostream>
+#include<stdio.h>
 
 class CBeverage //饮料基类
 {

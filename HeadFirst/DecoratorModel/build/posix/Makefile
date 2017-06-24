@@ -66,11 +66,6 @@ CPPFLAGS+=-m64 -fpermissive
 CFLAGS+=-m64 -fpermissive
 endif
 
-#EMULATIONDVR_LIBDIR=-L$(LIBDIR)   -lpthread  -lutility -llog4cpp -lz
-#EMULATIONDVR_LIBDIR+=$(LIBDIR)/libz.a 
-#EMULATIONDVR_LIBDIR+=$(LIBDIR)/libutility.a
-#EMULATIONDVR_LIBDIR+=$(LIBDIR)/liblog4cpp.a
-#EMULATIONDVR_LIBDIR+=-L$(LIBDIR) -lpthread 
 
 CPPFLAGS := -Wall -O2 -fPIC  -I$(INCDIR)  
 

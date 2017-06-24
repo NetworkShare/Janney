@@ -176,6 +176,7 @@ int main(int argc, char* argv[])
 		std::cout<< cSoy.GetDescription()<<"; "<<"Cost:"<<cSoy.GetCost() <<std::endl ;	
 	}
 
+	getchar( ) ;
 
 	{
 		CHouseBlend cHouseBlend ;
