@@ -1,1 +1,1 @@
-# Janney
+# Janney directory
